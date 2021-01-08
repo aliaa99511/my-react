@@ -1,38 +1,139 @@
-.App {
-  text-align: center;
+
+
+/*
+X-Small	   None	                    <576px   اقل من الموبايل
+Small	   sm	                    ≥576px   الموبايل
+Medium	   md	                    ≥768px   التابلت 
+Large	   lg	                    ≥992px   تابلت كمان
+Extra    large	xl	                ≥1200px   تابلت كمان 
+Extra    extra large xxl	        ≥1400px  لابي وال اكبر منه  
+
+*/
+
+
+/*responsive*/
+
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .Fullscreen1 .lefft {width: 482px!important;margin-left: 47px!important;margin-top: -431px!important}
+    .Fullscreen1 .lefft h1 {font-size: 49px!important;margin-bottom: 40px!important;}    
+    .Cartoon1 .son1 img {height: 500px!important;width: 400px!important}
+    .Cartoon1 .son2 .medi .med1 {width: 242px!important}
+    .Cartoon1 .son2 .medi .med1 i {width: 132px!important;height: 56px!important;line-height: 57px!important;font-size: 23px!important}
+    .Teams img {width: 298px!important;height: 307px!important}
+    .Agents .shadw .social {left: 76%!important;}
+    .Hotel p.count.card-text {width: 117%!important}
+    .Gallary .row {display: block!important}
+    .Gallary .photo1 .img2 {margin-left: 20px!important}
+    .Gallary .photo3 .img4 {margin-left: 319px!important;margin-top: -376px!important;}
+    .Gallary .photo3 .img5 {margin-top: -689px!important}
+    .Gallary .photo4 .img6 {margin-left: -25px!important}
+    .Gallary .photo5 .img8 {margin-left: 712px!important;margin-top: -753px!important}
+    .Gallary .photo6 .img9 {margin-left: 920px!important;margin-top: -217px!important}
+    .Gallary .photo6 .img10 {margin-left: 651px!important;margin-top: -224px!important}
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .Fullscreen1 .lefft {width: 481px!important;margin-left: 28px!important;margin-top: -349px!important}
+    .Fullscreen1 .lefft h1 {font-size: 40px!important;margin-bottom: 25px!important}
+    .under {margin-top: -144px!important;}
+    .under .row,.Cartoon1 .frow,.Teams .row,.Mobiles .row
+    ,.Cardes .card-deck,.Agents .row,.River .row
+    ,.Hotel .card-deck,.Prices .row
+    ,.Digital .row {display: block!important;}
+
+    .Cartoon1 .container-fluid{width: 80%!important}
+    .Cartoon1 .son2 h2{text-align: center!important;}
+    .Cartoon1 .son2 .medi .med1 {width: 300px!important;}
+    .Teams .son .shadw {left: 36%!important;}
+    .Mobiles .iitem1 {margin-left: 91px!important}
+    .Mobiles .iitem1 img {width: 546px!important;height: 519px!important}
+    .Agents .soon {display: flex!important;justify-content: center!important;align-items: center!important}
+    .Agents .soon img {left: 26%!important}
+    .Agents .shadw .social {left: 62%!important}
+    .River .mleft .shadw {right: 18%!important}
+    .Hotel p.count.card-text {width: 106%!important}
+    .Gallary .row {display: block!important}
+    .Gallary .photo1 .img2 {margin-left: 20px!important}
+    .Gallary .photo3 .img4 {margin-left: 319px!important;margin-top: -376px!important;}
+    .Gallary .photo4 .img6 {margin-left: -25px!important}
+    .Gallary .photo5 .img8 {margin-left: 602px!important;margin-top: -753px!important}
+    .Gallary .photo6 .img9 {margin-left: 920px!important;margin-top: -217px!important}
+    .Gallary .photo6 .img10 {margin-left: 651px!important;margin-top: -224px!important}
+    .Digital .item1 {margin-left: 0px!important;}
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .before .form {margin-top: 98px!important;margin-left: -366px!important;}
+    .Fullscreen1 .lefft {width: 381px!important;margin-left: 28px!important;margin-top: -290px!important}
+    .Fullscreen1 .lefft h1 {font-size: 33px!important;margin-bottom: 15px!important}
+    .under {margin-top: -144px!important;}
+    .under .row,.Cartoon1 .frow,.Night .row,.Teams .row
+    ,.Mobiles .row,.Cardes .card-deck,.Agents .row
+    ,.River .row,.Hotel .card-deck
+    ,.Prices .row,.Appco .row
+    ,.Digital .row {display: block!important;}
+
+    .Cartoon1 .container-fluid{width: 100%!important}
+    .Cartoon1 .son2 h2{text-align: center!important;}
+    .Cartoon1 .son2 .medi .med1 {width: 250px!important}
+    .Cartoon1 .son1 img {width: 466px!important}
+    .Night .cont div{margin-bottom: 20px!important;}
+    .Teams .son .shadw {left: 36%!important;}
+    .Agents .soon {display: flex!important;justify-content: center!important;align-items: center!important}
+    .Agents .soon img {left: 17%!important}
+    .Agents .shadw .social {left: 66%!important}
+    .Hotel p.count.card-text {width: 109%!important}
+    .Gallary .row {display: block!important}
+    .Gallary .photo1 .img2 {margin-left: 20px!important}
+    .Gallary .photo3 .img4 {margin-left: 319px!important;margin-top: -376px!important;}
+    .Gallary .photo3 .img5 {margin-left: 55px!important;}
+    .Gallary .photo4 .img6 {margin-left: -25px!important;margin-top: 16px!important}    
+    .Gallary .photo5 .img8 {margin-left: 327px!important;margin-top: -1050px!important}    
+    .Gallary .photo6 .img9 {margin-left: 920px!important;margin-top: -217px!important}
+    .Gallary .photo6 .img10 {margin-left: 490px!important;margin-top: -513px!important}
+    .Digital .item1 {margin-left: 0px!important;}
+    .Resturent .mleft .shadw {top: 10%!important;left: 20%!important;}
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .before .form {margin-top: 98px!important;margin-left: -319px!important;}
+    .Fullscreen1 .lefft {width: 370px!important;margin-left: 14px!important;margin-top: -223px!important}
+    .Fullscreen1 .lefft h1 {font-size: 25px!important;margin-bottom: 11px!important}
+    .under {margin-top: -144px!important;}
+    .under .row,.Cartoon1 .row,.Night .row,.Teams .row
+    ,.Mobiles .row,.Agents .row,.River .row
+    ,.Prices .row,.Appco .row
+    ,.Digital .row{display: block!important;}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    .Cartoon1 .container-fluid{width: 95%!important}
+    .Cartoon1 .son2 h2{text-align: center!important;}
+    .Cartoon1 .son2 .medi{margin-left: 30px;}
+    .Cartoon1 .son2 .medi .med1 {width: 300px!important}
+    .Cartoon1 .son1 img {width: 400px!important;height: 450px!important}
+    .Night .cont div{margin-bottom: 20px!important;}
+    .Teams .son .shadw {left: 36%!important;}
+    .Agents .soon {display: flex!important;justify-content: center!important;align-items: center!important}
+    .Agents .soon img {left: 14%!important}
+    .Agents .shadw .social {left: 67%!important}
+    .Hotel p.count.card-text {width: 109%!important}
+    .Gallary .row {display: block!important}
+    .Gallary .photo1 .img2 {margin-left: 20px!important}
+    .Gallary .photo3 .img4 {margin-left: 43px!important;margin-top: 17px!important}    
+    .Gallary .photo3 .img5 {margin-left: -32px!important}    
+    .Gallary .photo4 .img6 {margin-left: -25px!important;margin-top: 16px!important}    
+    .Gallary .photo5 .img8 {margin-left: 175px!important;margin-top: -997px!important}    
+    .Gallary .photo6 .img9 {margin-left: 920px!important;margin-top: -217px!important}
+    .Gallary .photo6 .img10 {margin-left: 490px!important;margin-top: -513px!important}
+    .Digital .item1 {margin-left: -67px!important;}
+    .Resturent .mleft .shadw {top: 5%!important;left: 20%!important;}
+
 }
