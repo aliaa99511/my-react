@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my-react/static/css/main.8f47088d.chunk.css",
+    "main.js": "/my-react/static/js/main.b40105bf.chunk.js",
+    "main.js.map": "/my-react/static/js/main.b40105bf.chunk.js.map",
+    "runtime-main.js": "/my-react/static/js/runtime-main.e777cef6.js",
+    "runtime-main.js.map": "/my-react/static/js/runtime-main.e777cef6.js.map",
+    "static/css/2.61431089.chunk.css": "/my-react/static/css/2.61431089.chunk.css",
+    "static/js/2.253e3185.chunk.js": "/my-react/static/js/2.253e3185.chunk.js",
+    "static/js/2.253e3185.chunk.js.map": "/my-react/static/js/2.253e3185.chunk.js.map",
+    "index.html": "/my-react/index.html",
+    "precache-manifest.f036a8881de9ce5ccc41c7f193977b63.js": "/my-react/precache-manifest.f036a8881de9ce5ccc41c7f193977b63.js",
+    "service-worker.js": "/my-react/service-worker.js",
+    "static/css/2.61431089.chunk.css.map": "/my-react/static/css/2.61431089.chunk.css.map",
+    "static/css/main.8f47088d.chunk.css.map": "/my-react/static/css/main.8f47088d.chunk.css.map",
+    "static/js/2.253e3185.chunk.js.LICENSE.txt": "/my-react/static/js/2.253e3185.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/my-react/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e777cef6.js",
+    "static/css/2.61431089.chunk.css",
+    "static/js/2.253e3185.chunk.js",
+    "static/css/main.8f47088d.chunk.css",
+    "static/js/main.b40105bf.chunk.js"
+  ]
+}
